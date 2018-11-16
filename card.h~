@@ -19,7 +19,7 @@ public:
     Card(int suit, int pip);
     int get_suit;
     int get_pip;
-    void return_card();
+    void print_card();
 
 };
 

@@ -17,8 +17,8 @@ class Card
 
 public:
     Card(int suit, int pip);
-    int get_suit;
-    int get_pip;
+    int get_suit();
+    int get_pip();
     void return_card();
 
 };

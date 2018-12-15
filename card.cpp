@@ -25,7 +25,7 @@ int Card::get_pip()
     return m_pip;
 }
 
-void Card::return_card()
+void Card::print_card()
 {
     std::cout << m_suit << ", " << m_pip << std::endl;
 }
